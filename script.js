@@ -1,7 +1,7 @@
 const main = document.querySelector("main");
 const circle = document.querySelector(".circle");
 const h2 = document.querySelector("h2");
-
+const hint = document.querySelector(".hint");
 function bubbles() {
   const count = 200;
   let i = 0;
@@ -28,5 +28,8 @@ main.addEventListener("click", () => {
   main.classList.toggle("redBackground");
   circle.classList.toggle("redCircle");
   h2.classList.toggle("white");
-  document.querySelectorAll('i').forEach(bubble => bubble.classList.toggle("stars"));
+  hint.classList.toggle("white");
+  document
+    .querySelectorAll("i")
+    .forEach((bubble) => bubble.classList.toggle("stars"));
 });

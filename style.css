@@ -84,6 +84,11 @@ main i:nth-child(even) {
   border: 1px solid #ff2a2a;
 }
 
+.hint {
+  animation: bubbleUp 7s linear infinite;
+  color: #ff2a2a;
+}
+
 @keyframes bubbleUp {
   0% {
     transform: translateY(0);
