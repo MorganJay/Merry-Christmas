@@ -21,7 +21,7 @@ main {
 }
 
 .box {
-  position: absolute;
+  position: sticky;
   width: clamp(370px, 5vw, 450px);
   height: clamp(370px, 5vw, 450px);
 }
